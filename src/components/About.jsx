@@ -7,17 +7,18 @@ import { fadeIn, textVariant } from "../utils/motion"
 import { SectionWrapper } from '../hoc'
 
 const ServiceCard = ({ index, title, icon})=>{
+  
   return(
     <Tilt className='xs:w-[250px] w-full'>
       <motion.div
-          variants={fadeIn("right", "spring", index * 0.3, 0.75)}
+          variants={window.innerWidth <= 440 ? "" : fadeIn("right", "spring", index * 0.3, 0.75)}
         className='w-full  green-pink-gradient 
         p-[1px] rounded-[20px] shadow-card'
       >
         <div
           options={{
             max: 45,
-            scale: 1,
+            scale: 2,
             speed: 450,
           }}
           className='bg-tertiary rounded-[20px] py-5 px-12 
@@ -38,7 +39,7 @@ const ServiceCard = ({ index, title, icon})=>{
 const About = () => {
   return (
     <>
-      <motion.div variants={textVariant()}>
+      <motion.div variants={window.innerWidth <= 440 ? "" : textVariant()}>
         <p className={styles.sectionSubText}>
           INTRODUCCIÓN
         </p>
@@ -48,7 +49,7 @@ const About = () => {
       </motion.div>
 
       <motion.p 
-        variants={fadeIn("","", 0.1, 1)}
+        variants={window.innerWidth <= 440 ? "" : fadeIn("","", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl
         leading-[30px]'
       >
