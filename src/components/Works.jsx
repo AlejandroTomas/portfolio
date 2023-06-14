@@ -17,7 +17,7 @@ const ProjectCard = ({
   source_code_link,
 }) => {
   return (
-    <motion.div variants={window.innerWidth >= 1024 ? "" : fadeIn("up", "spring", index * 0.5, 0.75)}>
+    <motion.div variants={window.innerWidth <= 1024 ? "" : fadeIn("up", "spring", index * 0.5, 0.75)}>
       <Tilt
         options={{
           max: 45,
@@ -70,14 +70,14 @@ const ProjectCard = ({
 const Works = () => {
   return (
     <>
-      <motion.div variants={window.innerWidth >= 1024 ? "" : textVariant()}>
+      <motion.div variants={window.innerWidth <= 1024 ? "" : textVariant()}>
         <p className={`${styles.sectionSubText} `}>Mis trabajos</p>
         <h2 className={`${styles.sectionHeadText}`}>Proyectos.</h2>
       </motion.div>
 
       <div className='w-full flex'>
         <motion.p
-          variants={ window.innerWidth >= 1024 ? "" : fadeIn("", "", 0.1, 1)}
+          variants={ window.innerWidth <= 1024 ? "" : fadeIn("", "", 0.1, 1)}
           className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'
         >
           Tengo varios proyectos que demuestran mis habilidades a través de ejemplos de mi trabajo. 
