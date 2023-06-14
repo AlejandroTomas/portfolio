@@ -49,6 +49,14 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
+import sunny from "./desktop-preview.jpg"
+import japantravel from "./japantravel.png"
+import burguerApp from "./burguer.png"
+import animestore from "./animestore.png"
+import marmoleria from "./marmoleria.png"
+import encriptador from "./encriptador.png"
+import mercadoonline from "./miscelanea.png"
+
 import media3 from "./media3.png";
 import media2 from "./media2.png";
 
@@ -58,6 +66,14 @@ export {
   oracle,
   spring,
   sql,
+
+  sunny,
+  japantravel,
+  burguerApp,
+  animestore,
+  marmoleria,
+  encriptador,
+  mercadoonline,
 
   logo,
   backend,

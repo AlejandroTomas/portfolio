@@ -31,7 +31,7 @@ const Navbar = () => {
             font-bold cursor-pointer flex"
           >
             Alejandro &nbsp;
-            <span className="sm:block hidden ">| Frontend Developer</span>
+            <span className="lg:block hidden ">| Frontend Developer</span>
           </p>
         </Link>
         <ul className="list-none hidden sm:flex flex-row gap-10">

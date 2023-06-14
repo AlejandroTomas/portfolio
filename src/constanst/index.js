@@ -37,7 +37,14 @@ import {
     planeta6,
     planeta7,
     planeta8,
-    github
+    github,
+    sunny,
+    japantravel,
+    burguerApp,
+    animestore,
+    marmoleria,
+    encriptador,
+    mercadoonline
   } from "../assets";
   
   export const navLinks = [
@@ -266,7 +273,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
+      image: sunny,
       source_code_link: "https://github.com/AlejandroTomas/sunnyside-agency-landing-page",
     },
     {
@@ -287,7 +294,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
+      image: japantravel,
       source_code_link: "https://github.com/",
     },
     {
@@ -308,7 +315,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
+      image: burguerApp,
       source_code_link: "https://github.com/",
     },
     {
@@ -329,7 +336,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
+      image: animestore,
       source_code_link: "https://github.com/",
     },
     {
@@ -350,7 +357,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
+      image: marmoleria,
       source_code_link: "https://github.com/",
     },
     {
@@ -371,13 +378,13 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
+      image: encriptador,
       source_code_link: "https://alejandrotomas.github.io/encriptador-de-texto-alura/",
     },
     {
       name: "Mercado Online",
       description:
-        "El mercado online es una aplicación web completa que permite a los usuarios comprar y vender productos de manera conveniente y segura. Durante el desarrollo de este proyecto, utilicé las tecnologías de Node.js para el backend, React para el frontend y Express como framework web.",
+        "El mercado online es una aplicación web completa que permite a los usuarios comprar y vender productos de manera conveniente y segura. Durante el desarrollo de este proyecto, utilicé las tecnologías de Node.js para el backend, React para el frontend y Express como framework web (En desarrollo, solo version movil).",
       tags: [
         {
           name: "React.js",
@@ -396,7 +403,7 @@ import {
           color: "green-text-gradient",
         },
       ],
-      image: tripguide,
+      image: mercadoonline,
       source_code_link: "https://regal-donut-16e55e.netlify.app/",
     },
   ];
