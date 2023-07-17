@@ -49,6 +49,7 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
+import startbucks from "./starbucks.png"
 import sunny from "./desktop-preview.jpg"
 import japantravel from "./japantravel.png"
 import burguerApp from "./burguer.png"
@@ -67,6 +68,7 @@ export {
   spring,
   sql,
 
+  startbucks,
   sunny,
   japantravel,
   burguerApp,

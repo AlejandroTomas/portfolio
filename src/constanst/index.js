@@ -44,7 +44,8 @@ import {
     animestore,
     marmoleria,
     encriptador,
-    mercadoonline
+    mercadoonline,
+    startbucks
   } from "../assets";
   
   export const navLinks = [
@@ -256,6 +257,23 @@ import {
   
   const projects = [
     {
+      name: "StarBucks Pagina de Producto",
+      description:
+        "Maquetacion de una Landing page de StarBucks, con diseño resposivo",
+      tags: [
+        {
+          name: "CSS",
+          color: "green-text-gradient",
+        },
+        {
+          name: "HTML",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: startbucks,
+      source_code_link: "https://alejandrotomas.github.io/Starbucks-landingPage/",
+    },
+    {
       name: "Sunnyside Agency",
       description:
         "Challenge sobre maquetacion de una Landing page de agencia de marketing del sitio web Frontend-mentor, con diseño resposivo",
@@ -295,7 +313,7 @@ import {
         },
       ],
       image: japantravel,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://alejandrotomas.github.io/japanTravelPage/",
     },
     {
       name: "App Deliver El Burguer",
@@ -337,7 +355,7 @@ import {
         },
       ],
       image: animestore,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://alejandrotomas.github.io/spaAnimeStore/",
     },
     {
       name: "Landing Page Marmoleria",
@@ -358,7 +376,7 @@ import {
         },
       ],
       image: marmoleria,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://sage-sunflower-af0aef.netlify.app",
     },
     {
       name: "Encriptador Alura Curso One Oracle",
